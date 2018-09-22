@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import Header from './home/scenes/consts/Header'
 import Footer from './home/scenes/consts/Footer'
-
-import Project from './home/scenes/Project/Project'
-import SelectProject from './home/scenes/SelectProject/SelectProject'
+import Selectcontent from './home/scenes/Selectcontent'
 import { connect } from 'react-redux'
 
-import { Scrollbars } from 'react-custom-scrollbars'
-import { Route, withRouter } from "react-router-dom";
+import Scrollbar from './home/scenes/consts/Scrollbar'
+import { withRouter } from "react-router-dom";
 
 import { dataLoader } from './home/store/actions'
 
@@ -18,22 +16,13 @@ class Root extends Component {
     return (loadData())
   }
   render() {
-  	const thumbStyle = {
-  		backgroundColor: "#283235",
-  		borderRadius: "3px"
-  	}
+  	
     return (
-      <div>
-        <Scrollbars 
-          style={{ "width": "100%", "height": "100vh" }} 
-          renderThumbVertical={({ style, ...props }) => <div { ...props } 
-          style={{ ...style, ...thumbStyle }}/>} 
-          autoHide>
-        <Header />
-        
-        <Route exact path="/" component={ SelectProject } />
-        <Route exact path="/project/:projectId" component={ Project } />
-        </Scrollbars>
+      <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}>
+        <Scrollbar>
+          <Header />
+          <Selectcontent />
+        </Scrollbar>
       </div>
     );
   }

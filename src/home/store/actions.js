@@ -1,4 +1,9 @@
-import { fetchData } from './types'
+import { 
+	fetchData,
+	setBioOpen,
+	setContactOpen
+} from './types'
+
 import * as R from 'ramda'
 import { data } from '../../data/data.json'
 import { ids } from '../../data/secretOnes.json'
@@ -10,4 +15,12 @@ export const dataLoader = () => dispatch => {
 	const publicData = R.without(c, data)
 	
 	dispatch(fetchData(data))
+}
+
+export const toggleBio = (bool) => dispatch => {
+	dispatch(setBioOpen(bool))
+}
+
+export const toggleContact = (bool) => dispatch => {
+	dispatch(setContactOpen(bool))
 }
