@@ -1,0 +1,436 @@
+{
+	"data": [{
+			"id": 1,
+			"active": true, 
+			"url": "/project/kov-ve-meste",
+			"projectName": "14. Kov ve městě",
+			"subTitle": "Redesign vizuálního stylu",
+			"cooperation": "",
+			"mainTag": "Grafický design",
+			"annotation": "Návrh vizuálního stylu vznikl v reakci na současnou grafickou úroveň Kovu ve městě. Obkládači koupelen by měli obkládat koupelny a silničáři opravovat cesty. Na grafické návrhy si proto zpravidla budeme sjednávat grafické designéry.\n\nRozhodl jsem se, že nezůstanu jen u opovržlivých pohledů na nevzhledně upravený katalog, který svou grafickou výzdobou potlačuje fotodokumentaci děl, a vizuální styl přepracuji tak, aby byl v symbióze s autory, které prezentuje a celé akci dodal váhu, kterou si zaslouží.\n\nTvorba obou Pavlů Tasovských je od sebe poměrně jasně odlišitelná. Pavel Tasovský mladší se přiklání ke geometrickému přístupu tvarování soch, zatímco dílo jeho otce charakterizují měkké, organické linie. Na tomto rozdílu je postavený celý nový návrh vizuálního stylu, protože výstava je vždy především o dílech vystavujících.\n\nPro výstavu jsem vytvořil i logotyp, který je rozpoznatelnější než současný a zároveň je v něm patrnější odkaz na město Lipník nad Bečvou. Ze značky je možné komponovat nejrůznější piktogramy, což posiluje celkovou neznaměnitelnost značky a její variabilitu.",
+			"landingPageImage": {
+				"src": "/img/kov-ve-meste/poster-2.png",
+				"alt": "Plakát"
+			},
+			"intro": {
+				"src": "/img/kov-ve-meste/poster-2.png",
+				"alt": "Plakát"
+			},
+			"content": [[
+				{
+					"cols": 6,
+					"src": "/img/kov-ve-meste/logotyp-1.png",
+					"alt": "Logotyp 1"
+				}, {
+					"cols": 3,
+					"src": "/img/kov-ve-meste/logotyp-2.png",
+					"alt": "Logotyp 2"
+				}, {
+					"cols": 3,
+					"src": "/img/kov-ve-meste/logotyp-3.png",
+					"alt": "Logotyp 3"
+				}
+				], [
+					{
+						"cols": 12,
+						"src": "/img/kov-ve-meste/intro.png",
+						"alt": "Intro"
+					}
+				], [
+					{
+						"cols": 12,
+						"src": "/img/kov-ve-meste/poster.png",
+						"alt": "Poster"
+					}
+				], [
+					{
+						"cols": 12,
+						"src": "/img/kov-ve-meste/katalog.png",
+						"alt": "Katalog"
+					}
+				], [
+					{
+						"cols": 6,
+						"src": "/img/kov-ve-meste/anketa.png",
+						"alt": "Anketa"
+					}, {
+						"cols": 6,
+						"src": "/img/kov-ve-meste/katalog-2.png",
+						"alt": "Katalog Detail"
+					}
+				], [
+					{
+						"cols": 12,
+						"src": "/img/kov-ve-meste/facebook.png",
+						"alt": "Facebbok"
+					}
+				], [
+					{
+						"cols": 6,
+						"src": "/img/kov-ve-meste/triko.png",
+						"alt": "Tričko"
+					}, {
+						"cols": 6,
+						"src": "/img/kov-ve-meste/taska.png",
+						"alt": "Taška"
+					}
+			]]
+		}, {
+			"id": 2,
+			"active": true, 
+			"url": "/project/redesign-ovladaciho-panelu",
+			"projectName": "Redesign ovládacího panelu pekařských pecí",
+			"subTitle": "Vizuální styl k výstavě bakalářských prací Odboru průmyslového designu VUT",
+			"cooperation": "Tomáš Blaha, Radek Mička",
+			"mainTag": "Průmyslový design",
+			"annotation": "Nový design ovládacích panelů pekařských pecí přinesl zlepšení v ergonomii při obsluze stroje. Před začátkem návrhu jsme sledovali práci pekařů, abychom byli schopní proces pečení inovovat. Dále jsme se potýkali s problémem přehřívání displeje, který bylo třeba ochránit před teplem vycházejícím z pece. Proto je panel zapuštěný, což výrazně přispělo i k jeho ochraně před nárazem vozíku s pečivem, k čemu během procesu pečení může snadno dojít.\n\nMezi další cíle patřila minimalizace spár, do kterých v běžném provozu padá mouka nebo intutivní ovládaní, které by bylo dobře čitelné i při špatných světelných podmínkách nebo řešení servisních přístupů.\n\nNová estetická hodnota umožnila zařízením sebevědomé vystupování na světovém trhu.Nejtěžší částí projektu byla snaha sjednotit velmi fragmentované portfolio produktů do jednotného vizuálního celku, který by byl snadno rozpoznatelný.",
+			"landingPageImage": {
+				"src": "/img/kornfeil-ovladaci-panel/intro-vozikova-pec.jpg",
+				"alt": "Čelní pohled na vozíkovou pec"
+			},
+			"intro": {
+				"src": "/img/kornfeil-ovladaci-panel/intro.jpg",
+				"alt": "Pekařské pece"
+			},
+			"content": [[
+				{
+					"cols": 6,
+					"src": "/img/kornfeil-ovladaci-panel/hlavni-pohled2.jpg",
+					"alt": "Vozíková pec"
+				}, {
+					"cols": 6,
+					"src": "/img/kornfeil-ovladaci-panel/4etazova-celni.pohled.jpg",
+					"alt": "Etážová pec"
+				}], [{
+					"cols": 7,
+					"src": "/img/kornfeil-ovladaci-panel/Merhaut-40.jpg",
+					"alt": "Vozíková pec"
+				}, {
+					"cols": 5,
+					"src": "/img/kornfeil-ovladaci-panel/Panely_Salima_2018-44.jpg",
+					"alt": "Etážová pec"
+				}], [{
+					"cols": 6,
+					"src": "/img/kornfeil-ovladaci-panel/displej-tlacitka.jpg",
+					"alt": "Vozíková pec"
+				}, {
+					"cols": 6,
+					"src": "/img/kornfeil-ovladaci-panel/etazova-pec-H1-displej-tlacitka.jpg",
+					"alt": "Etážová pec"
+				}]
+			]
+		}, {
+			"id": 3,
+			"active": true, 
+			"url": "/project/polocas-designu",
+			"projectName": "Poločas designu",
+			"subTitle": "Vizuální styl k výstavě bakalářských prací Odboru průmyslového designu VUT",
+			"cooperation": "Tomáš Blaha",
+			"mainTag": "Grafický design",
+			"annotation": "Tři roky studia jsme měli za sebou, dva nás čekaly. Nastal poločas našeho studia. Bylo třeba vydechnout, rozhlédnout se kolem, ujasnit si, kam jdeme a co necháváme za sebou.\n\nV Café Flexaret jsme představili výběr z našich bakalářských prací, na kterých jsme pracovali během jara 2014. Byla to pro nás možnost si poprvé vyzkoušet intenzivní a dlouhodobou práci na konkrétním zadání v oboru průmyslového designu. Vybírali jsme si z nabízených témat designu menší produkty, u kterých jsme se domnívali, že by se daly vylepšit. Výstava prezentuje výběr dvanácti předmětů pro každodenní použití i pro specializované činnosti.\n\nNavrhování je složitý proces, při kterém se nevyhneme chybám a slepým uličkám. Škola je místem, kde jsme měli možnost objevovat, zkoušet a učit se z chyb. Zušlechťovat věci po racionální i emoční stránce. Přemýšlet, jak dělat věci takové, aby je lidé s radostí používali.\n\nI hrníček, ze kterého možná zrovna pijete kávu, musel někdo navrhnout a jeho vývoj mohl trvat měsíc nebo dva. U židle to může být klidně i rok a půl, auto nebo lokomotiva vzniká roky.",
+			"landingPageImage": {
+				"src": "/img/polocas-designu/LOT_7959.jpg",
+				"alt": "Fotografie z vernisáže"
+			},
+			"intro": {
+				"src": "/img/polocas-designu/LOT_7959.jpg",
+				"alt": "Fotografie z vernisáže"
+			},
+			"content": [[
+				{
+					"cols": 12,
+					"src": "/img/polocas-designu/posters-serie.png",
+					"alt": "Hráborýč - tonetky - břitvy"
+				}], [
+				{
+					"cols": 12,
+					"src": "/img/polocas-designu/postery-komplet.jpg",
+					"alt": "Postery celá série"
+				}
+				], [
+				{
+					"cols": 6,
+					"src": "/img/polocas-designu/pozvanky.png",
+					"alt": "Pozvánky"
+				}, {
+					"cols": 6,
+					"src": "/img/polocas-designu/LOT_7925.png",
+					"alt": "Foto z vernisáže"
+				}
+				], [
+					{
+						"cols": 8,
+						"src": "/img/polocas-designu/rams.png",
+						"alt": "Foto z vernisáže"
+					}, {
+						"cols": 4,
+						"src": "/img/polocas-designu/LOT_7872.png",
+						"alt": "Foto z vernisáže"
+					}
+				], [
+					{
+						"cols": 6,
+						"src": "/img/polocas-designu/LOT_7816.jpg",
+						"alt": "Foto z vernisáže"
+					}, {
+						"cols": 6,
+						"src": "/img/polocas-designu/LOT_7827.jpg",
+						"alt": "Foto z vernisáže"
+					}
+				], [
+					{
+						"cols": 6,
+						"src": "/img/polocas-designu/LOT_7802.jpg",
+						"alt": "Foto z vernisáže"
+					}, {
+						"cols": 6,
+						"src": "/img/polocas-designu/LOT_7876.jpg",
+						"alt": "Foto z vernisáže"
+					}
+				]]
+		}, {
+			"id": 4,
+			"active": true, 
+			"url": "/project/autonomni-zemedelsky-kombajn",
+			"projectName": "Autonomní zemědělský kombajn",
+			"subTitle": "Diplomová práce, která přináší budoucí vizi v rozvoji zemědělství",
+			"cooperation": "",
+			"mainTag": "Průmyslový design",
+			"annotation": "Vzhledem k celosvětovému přírůstku populace vznikají vysoké nároky na výnosy ze zemědělství, které musí adekvátně technologicky reagovat, aby dosáhlo požadované efektivity. Výsledkem diplomové práce je návrh vize autonomního zemědělského kombajnu, který je pro transport na pozemních komunikacích vybavený skládací žací lištou.\n\nByl zvolen obousměrný pojezd kombajnu – část vybavená žací lištou slouží pro pojezd na poli a část druhá pro transport se složenou žací lištou. V současné době jsou na trhu pouze obilné žací lišty s šířkou záběru okolo 7 metrů. Návrh přináší řešení sklápěcího mechanismu pro žací lištu o šířce záběru až 12 metrů, které zatím nemá obdoby. Výtvarné řešení klade důraz na zdůraznění autonomity kombajnu.\n\nStěžejní myšlenkou je celková automatizace zemědělství, která se jeví jako nevyhnutelný trend budoucnosti. Žací lišta v transportní poloze zkrátila délku stroje téměř o polovinu a tak velmi příznivě ovlivnila jeho manévrovací schopnosti oproti stávajícím strojům, které táhnou žací lištu na vlečce za sebou. Návrh reflektuje současné technické uzpůsobení strojů a klade si tak za cíl prezentovat možný budoucí vývoj v konkrétní podobě.\n\nDiplomová práce obdržela první místo na konferenci diplomových prací VUT FSI, druhé místo v soutěži Best in design na Zlín design weeku 2017 a Národní cenu za studentský design 2017.",
+			"landingPageImage": {
+				"src": "/img/kombajn/kombajn-intro.jpg",
+				"alt": "Čelní pohled na vozíkovou pec"
+			},
+			"intro": {
+				"src": "/img/kombajn/kombajn-intro.jpg",
+				"alt": "Čelní pohled na vozíkovou pec"
+			},
+			"content": [
+				[{
+					"cols": 6,
+					"src": "/img/kombajn/kombajn24.jpg",
+					"alt": "Vnitřní ústrojí"
+				}, {
+					"cols": 6,
+					"src": "/img/kombajn/schema_3.gif",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 4,
+					"src": "/img/kombajn/kombajn18.jpg",
+					"alt": "Vnitřní ústrojí"
+				}, {
+					"cols": 4,
+					"src": "/img/kombajn/kombajn19.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 4,
+					"src": "/img/kombajn/kombajn20.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 6,
+					"src": "/img/kombajn/kombajn16.jpg",
+					"alt": "Vnitřní ústrojí"
+				}, {
+					"cols": 6,
+					"src": "/img/kombajn/kombajn17.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 6,
+					"src": "/img/kombajn/sklapeni.gif",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 3,
+					"src": "/img/kombajn/kombajn22.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 3,
+					"src": "/img/kombajn/kombajn23.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 6,
+					"src": "/img/kombajn/kombajn25.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 6,
+					"src": "/img/kombajn/kombajn27.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 4,
+					"src": "/img/kombajn/kombajn29.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 8,
+					"src": "/img/kombajn/kombajn28.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 4,
+					"src": "/img/kombajn/IMG_5212.JPG",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 4,
+					"src": "/img/kombajn/IMG_5161.JPG",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 4,
+					"src": "/img/kombajn/IMG_5088.JPG",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 6,
+					"src": "/img/kombajn/kombajn32.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}, {
+					"cols": 6,
+					"src": "/img/kombajn/kombajn33.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}], [{
+					"cols": 8,
+					"src": "/img/kombajn/kombajn34.jpg",
+					"alt": "Schéma vnitřního ústrojí"
+				}]
+			]
+		}, {
+			"id": 5,
+			"active": true, 
+			"url": "/project/detska-interaktivni-tabule",
+			"projectName": "Dětská interaktivní tabule",
+			"subTitle": "Učební pomůcka, která umí promítat interaktivní hry na podlahu i na zeď",
+			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
+			"mainTag": "Průmyslový design",
+			"annotation": "Herní sestavu stačí připojit k elektrické zásuvce, zapnout ji a můžete začít dětem promítat na měkkou projekční podložku o velikosti 200x125cm cokoli, co se jinak běžně promítá na plátno či tabuli. Slouží ke vzdělávacím účelům a používá se především pro děti v předškolním veku.\n\nTím, že se projekce odehrává v nejpřirozenějším herním prostředí děti, tedy na zemi, je i dle zkušených učitelek MŠ tou nejvhodnější formou projekce právě pro naše nejmenší. Díky použití speciální projektoru je plocha dotyková. Uživatelé tak pomocí speciálních per nebo bezdrátové klávesnice mohou počítač ovládat přímo na promítaném obraze.\n\nPři tvorbě designu tohoto zařízení byl kladen důraz především na ergonomii, snadnou manipulaci, odkládací prostory a servisní přístupy k elektronickým komponentum uvnitř a zároveň jejich zajištění. Korpus zařízení je z bezpečnostních hledisek navržen v měkkém tvaroslovi a je vyroben z lakovaného ohýbaného dřeva.\n\nDíky použití zadních kol o větším průměru je zařízení po snadném překlopení na zadní opěrné nožky schopno promítat na zeď. Magicbox je nabízen v několika barevných variantách. Vkládané bočnice jsou navrženy ve více provedeních s různými rastry. Otvory, sloužící jako průduchy k chlazení elektroniky, dotvařejí unikátní vzhled tohoto produktu.\n\nMagicbox E2 byl poprvé představen v lednu 2016 na veletrhu BETT v Londýně.",
+			"landingPageImage": {
+				"src": "/img/magicbox/landingPage.jpg",
+				"alt": "Dětská interaktivní tabule"
+			},
+			"intro": {
+				"src": "/img/magicbox/intro.jpg",
+				"alt": "Dětská interaktivní tabule"
+			},
+			"content": [
+				[{
+					"cols": 4,
+					"src": "/img/magicbox/geomVar.jpg",
+					"alt": "Geometrická varianta"
+				}, {
+					"cols": 4,
+					"src": "/img/magicbox/fibboVar.jpg",
+					"alt": "Fibbonacciho varianta"
+				}, {
+					"cols": 4,
+					"src": "/img/magicbox/rozpal.jpg",
+					"alt": "Komponenty"
+				}], [{
+					"cols": 12,
+					"src": "/img/magicbox/barevneVar.jpg",
+					"alt": "Barevné varianty"
+				}], [{
+					"cols": 6,
+					"src": "/img/magicbox/linieKomponenty1.jpg",
+					"alt": "Komponenty"
+				}, {
+					"cols": 6,
+					"src": "/img/magicbox/linieKomponenty2.jpg",
+					"alt": "Komponenty"
+				}], [{
+					"cols": 4,
+					"src": "/img/magicbox/magicBoxBok.jpg",
+					"alt": "Horizontální poloha"
+				}, {
+					"cols": 8,
+					"src": "/img/magicbox/foto1.jpg",
+					"alt": "Fotografie z MŠ"
+				}]
+			]
+		}, {
+			"id": 6,
+			"active": true, 
+			"url": "/project/tankovaci-automaty-omv",
+			"projectName": "Tankovací automaty OMV",
+			"subTitle": "Kustomizovaný styling tankovacích automatů",
+			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
+			"mainTag": "Průmyslový design",
+			"annotation": "",
+			"landingPageImage": {
+				"src": "/img/omv/detail-zalomena.jpg",
+				"alt": "Čelní pohled na vozíkovou pec"
+			},
+			"intro": {
+				"src": "/img/omv/flat-benzinka-noc-tmava.jpg",
+				"alt": "Pekařské pece"
+			},
+			"content": [[
+				{
+					"cols": 6,
+					"src": "/img/omv/deska-zalomena-perspektivni-pohled-tmava-rozsvicena.png",
+					"alt": "Vozíková pec"
+				}, {
+					"cols": 3,
+					"src": "/img/omv/deska-zalomena-perspektivni-pohled-tmava.jpg",
+					"alt": "Etážová pec"
+				}, {
+					"cols": 3,
+					"src": "/img/omv/flat-predni-svetlejsi-symetricka.jpg",
+					"alt": "Etážová pec"
+				}]
+			]
+		}, {
+			"id": 7,
+			"active": true, 
+			"url": "/project/historický-stojan-adast",
+			"projectName": "Historický stojan Adast 1910",
+			"subTitle": "Design limitované edice historických stojanů pro výdej pohonných hmot",
+			"cooperation": "Martin Tvarůžek",
+			"mainTag": "Průmyslový design",
+			"annotation": "",
+			"landingPageImage": {
+				"src": "/img/historicky-stojan/historicky-stojan-3.png",
+				"alt": "Historický stojan Adast"
+			},
+			"intro": {
+				"src": "/img/historicky-stojan/historicky-stojan-otevreny.jpg",
+				"alt": "Historický stojan Adast"
+			},
+			"content": [[
+				{
+					"cols": 6,
+					"src": "/img/historicky-stojan/historicky-stojan-2.png",
+					"alt": "Historický stojan Adast"
+				}, {
+					"cols": 3,
+					"src": "/img/historicky-stojan/VAR8-2.jpg",
+					"alt": "Historický stojan Adast"
+				}, {
+					"cols": 3,
+					"src": "/img/historicky-stojan/VAR8-4.jpg",
+					"alt": "Historický stojan Adast"
+				}]
+			]
+		}, {
+			"id": 8,
+			"active": true, 
+			"url": "/project/tankautomat",
+			"projectName": "Tankovací automat CardManager Slim",
+			"subTitle": "Nový model produktové řady CardManager zajišťující akceptaci bankovních a fleet karet s odbavením přímo u výdejního stojanu",
+			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
+			"mainTag": "Průmyslový design",
+			"annotation": "",
+			"landingPageImage": {
+				"src": "/img/tankautomat/rendr.317.png",
+				"alt": "Tankovací automat CardManager Slim"
+			},
+			"intro": {
+				"src": "/img/tankautomat/zamarovice-tma.jpg",
+				"alt": "Tankovací automat CardManager Slim"
+			},
+			"content": [[
+				{
+					"cols": 6,
+					"src": "/img/tankautomat/bratislava-zlate-piesky.jpg",
+					"alt": "Tankovací automat CardManager Slim"
+				}, {
+					"cols": 6,
+					"src": "/img/tankautomat/slim-refyz-ergon.jpg",
+					"alt": "Tankovací automat CardManager Slim"
+				}]
+			]
+		}]
+}
