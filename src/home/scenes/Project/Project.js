@@ -4,9 +4,8 @@ import { connect } from 'react-redux'
 import ProjectEngine from './components/ProjectEngine'
 import ErrProject from './components/ErrProject'
 
-import { selectActiveProjectData, selectRandomProjects } from '../../store/selectors'
+import { selectActiveProjectData } from '../../store/selectors'
 import * as R from "ramda"
-import { withRouter } from 'react-router-dom'
 
 const Verification = ({sendProjectData, url}) => {
 	return (
@@ -24,6 +23,5 @@ class Project extends Component {
 } export default connect(
 	state => ({
 		projectData: selectActiveProjectData(state),
-		randomProjects: selectRandomProjects(state)
 	})
 )(Project)

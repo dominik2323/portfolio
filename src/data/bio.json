@@ -1,0 +1,13 @@
+{
+	"bio": [
+		{
+			"id": 1,
+			"name": "Spolupráce",
+			"content": "Obsah spolupráce"
+		}, {
+			"id": 2,
+			"name": "O mně" ,
+			"content": "Obsah o mně"
+		}
+	]
+}

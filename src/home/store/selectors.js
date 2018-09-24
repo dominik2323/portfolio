@@ -2,7 +2,9 @@ import * as R from "ramda"
 import { createSelector } from "reselect"
 
 import { 
-	getProjectData 
+	getProjectData,
+	getActiveBioContent,
+	getBioData
 } from './reducer'
 
 const getPathname = state => state.router.location.pathname
@@ -30,13 +32,14 @@ export const selectActiveProjectData = createSelector(
 	}
 )
 
-export const selectRandomProjects = createSelector(
-	getProjectData,
-	getProjectData => {
-		console.log('selectRandomProjects');
-	}	
-	)
-
 export const selectSimpleProjects = createSelector(getProjectData, R.map(simpleProjects))
+
+export const selectActiveBioData = createSelector(
+	getBioData,
+	getActiveBioContent,
+	(getBioData, getActiveBioContent) => {
+		return R.filter(R.propEq('id', getActiveBioContent), getBioData)
+	}
+)
 
 	

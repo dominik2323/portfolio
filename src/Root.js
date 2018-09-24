@@ -19,7 +19,7 @@ class Root extends Component {
   	
     return (
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}>
-        <Scrollbar>
+        <Scrollbar topOffset={ 124 }>
           <Header />
           <Selectcontent />
         </Scrollbar>
@@ -31,7 +31,7 @@ class Root extends Component {
     getUrl: state.router.location.pathname
   }),
   dispatch => ({
-    loadData: () => {
+    loadData() {
       dispatch(dataLoader())
     }
   }),

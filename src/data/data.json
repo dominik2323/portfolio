@@ -9,11 +9,11 @@
 			"mainTag": "Grafický design",
 			"annotation": "Návrh vizuálního stylu vznikl v reakci na současnou grafickou úroveň Kovu ve městě. Obkládači koupelen by měli obkládat koupelny a silničáři opravovat cesty. Na grafické návrhy si proto zpravidla budeme sjednávat grafické designéry.\n\nRozhodl jsem se, že nezůstanu jen u opovržlivých pohledů na nevzhledně upravený katalog, který svou grafickou výzdobou potlačuje fotodokumentaci děl, a vizuální styl přepracuji tak, aby byl v symbióze s autory, které prezentuje a celé akci dodal váhu, kterou si zaslouží.\n\nTvorba obou Pavlů Tasovských je od sebe poměrně jasně odlišitelná. Pavel Tasovský mladší se přiklání ke geometrickému přístupu tvarování soch, zatímco dílo jeho otce charakterizují měkké, organické linie. Na tomto rozdílu je postavený celý nový návrh vizuálního stylu, protože výstava je vždy především o dílech vystavujících.\n\nPro výstavu jsem vytvořil i logotyp, který je rozpoznatelnější než současný a zároveň je v něm patrnější odkaz na město Lipník nad Bečvou. Ze značky je možné komponovat nejrůznější piktogramy, což posiluje celkovou neznaměnitelnost značky a její variabilitu.",
 			"landingPageImage": {
-				"src": "/img/kov-ve-meste/poster-2.png",
+				"src": "/img/kov-ve-meste/poster-2.jpg",
 				"alt": "Plakát"
 			},
 			"intro": {
-				"src": "/img/kov-ve-meste/poster-2.png",
+				"src": "/img/kov-ve-meste/poster-2.jpg",
 				"alt": "Plakát"
 			},
 			"content": [[
@@ -99,7 +99,7 @@
 					"alt": "Vozíková pec"
 				}, {
 					"cols": 6,
-					"src": "/img/kornfeil-ovladaci-panel/4etazova-celni.pohled.jpg",
+					"src": "/img/kornfeil-ovladaci-panel/8etazova-celni.pohled.jpg",
 					"alt": "Etážová pec"
 				}], [{
 					"cols": 7,
@@ -139,7 +139,7 @@
 			"content": [[
 				{
 					"cols": 12,
-					"src": "/img/polocas-designu/posters-serie.png",
+					"src": "/img/polocas-designu/posters-serie.jpg",
 					"alt": "Hráborýč - tonetky - břitvy"
 				}], [
 				{
@@ -154,7 +154,7 @@
 					"alt": "Pozvánky"
 				}, {
 					"cols": 6,
-					"src": "/img/polocas-designu/LOT_7925.png",
+					"src": "/img/polocas-designu/LOT_7925.jpg",
 					"alt": "Foto z vernisáže"
 				}
 				], [
@@ -164,7 +164,7 @@
 						"alt": "Foto z vernisáže"
 					}, {
 						"cols": 4,
-						"src": "/img/polocas-designu/LOT_7872.png",
+						"src": "/img/polocas-designu/LOT_7872.jpg",
 						"alt": "Foto z vernisáže"
 					}
 				], [
