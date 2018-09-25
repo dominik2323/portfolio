@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // files
 import Root from './Root';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/style.css';
 
 // store
 import { Provider } from 'react-redux'

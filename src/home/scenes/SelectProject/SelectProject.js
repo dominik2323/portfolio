@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { selectSimpleProjects } from '../../store/selectors'
 import SelectProjectEngine from './components/SelectProjectEngine'
-import { Grid } from 'react-bootstrap'
+import { Container, Row } from 'reactstrap'
 
 class SelectProject extends Component {
 	render() {
 		const { featuredProjects } = this.props
 		return (
-			<Grid fluid>
+			<Container fluid>
+			<Row>
 				{
 					featuredProjects.map((projectData, i) => {
 						return <SelectProjectEngine 
@@ -17,7 +18,8 @@ class SelectProject extends Component {
 							/>
 					})
 				}
-			</Grid>
+			</Row>
+			</Container>
 		);
 	}
 } 

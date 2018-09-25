@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css } from "styled-components";
-import { Grid } from 'react-bootstrap'
+import { Container } from 'reactstrap'
 import Body from './headerComponents/Body'
 import Bio from './headerComponents/Bio'
 import { connect } from 'react-redux'
@@ -19,7 +19,6 @@ const HeaderContainer = styled.div`
 	position: absolute;
 	top: 0; left: 0; right: 0; 
 	background-color: white;
-	height: 124px;
 	transition-timing-function: ease-in;
 	transition: height 0.3s;
 	z-index: 3;
@@ -42,7 +41,7 @@ class Header extends Component {
 		} = this.props
 		return (
 			<HeaderContainer showBio={ showBio }>
-				<Grid fluid>
+				<Container fluid>
 					<Body 
 						showBio={ showBio }
 						toggleOpenContact={ openContact }
@@ -55,7 +54,7 @@ class Header extends Component {
 						toggleBioContent={ bioContent }
 						activeBioData={ activeBioData }
 					/>						
-				</Grid>
+				</Container>
 			</HeaderContainer>
 		);
 	}

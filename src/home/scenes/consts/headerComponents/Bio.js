@@ -61,8 +61,7 @@ const Contact = styled.div`
 `	
 export default class Bio extends Component {
 	render() {
-		const { 
-				showBio,
+		const { showBio,
 				showContact,
 				toggleOpenBio,
 				toggleDefaultHeader,

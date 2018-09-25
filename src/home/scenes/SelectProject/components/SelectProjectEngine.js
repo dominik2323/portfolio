@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col } from 'react-bootstrap'
+import { Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
@@ -17,6 +17,7 @@ const Label = styled.div`
 	right: 0;
 	left: 0;
 	color: white;
+	font-size: 14px;
 	font-weight: 300;
 	letter-spacing: .07em;
 	line-height: 1.5em;
@@ -41,7 +42,13 @@ export default class SelectProjectEngine extends Component {
 	render() {
 		const { projectData } = this.props
 		return (
-			<Col md={ 3 } sm={ 4 }>
+			<Col 
+				xl={ 3 }
+				lg={ 4 }
+				md={ 6 } 
+				sm={ 12 }
+				xs={ 12 }
+				>
 				<Link to={ projectData.url }>
 					<Img 
 						src={ projectData.landingPageImage.src } 
