@@ -32,7 +32,9 @@ const ProjectTitle = styled(Col)`
 	}
 `
 const ProjectAnnotation = styled(Col)`
+p {
 	margin: 100px 0 70px 0;
+}
 `
 const ProjectContent = styled(Col)`
 	margin-bottom: 30px;
