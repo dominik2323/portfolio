@@ -29,10 +29,16 @@ const ProjectTitle = styled(Col)`
 	}
 	p {
 		color: gray;
+		line-height: 28px;
+	}
+	.awards {
+		color: black;
 	}
 `
 const ProjectAnnotation = styled(Col)`
-	margin: 100px 0 70px 0;
+	p {
+		margin: 70px 0 100px 0;
+	}
 `
 const ProjectContent = styled(Col)`
 	margin-bottom: 30px;
@@ -53,8 +59,8 @@ export default class ProjectEngine extends Component {
 				<Container fluid>
 					<Row>
 						<ProjectTitle 
-								xl={{ size: 12, offset: 0 }}
-								lg={{ size: 12, offset: 0 }}
+								xl={{ size: 8, offset: 0 }}
+								lg={{ size: 8, offset: 0 }}
 								md={{ size: 10, offset: 1 }}
 								sm={{ size: 12, offset: 0 }}
 								xs={{ size: 12, offset: 0 }}
@@ -63,6 +69,14 @@ export default class ProjectEngine extends Component {
 							<p>
 								{ projectData.subTitle }
 								{ !R.isEmpty(projectData.cooperation) && '\nSpolupráce: ' + projectData.cooperation }
+							</p>
+							<p className="awards">
+								{ projectData.awards.content.map(x => {
+									const ranking = place => {
+										return (R.is(Number, place) ? place + '. místo\u2003' : 'Ocenění\u2003')
+									}
+									return ranking(x.place) + x.name + '\n'
+								}) }
 							</p>
 						</ProjectTitle>
 					</Row>

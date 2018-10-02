@@ -14,6 +14,7 @@ const simpleProjects = getProjectData => ({
 	id: R.prop('id', getProjectData),
 	active: R.prop('active', getProjectData),
 	subTitle: R.prop('subTitle', getProjectData),
+	awards: R.prop('awards', getProjectData),
 	mainTag: R.prop('mainTag', getProjectData),
 	url: R.prop('url', getProjectData),
 	projectName: R.prop('projectName', getProjectData),

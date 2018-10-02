@@ -11,10 +11,10 @@ export default class Scrollbar extends Component {
 	  		height: "100vh"
   		}
   		const trackStyle = {
-  			top: ( topOffset + 4 ) + 'px',// +4
+  			top: ( topOffset + 4 ) + 'px',
   			right: '3px',
   			width: "6px", 
-	  		height: 'calc(100% - ' + ( topOffset + 8 ) + 'px)'// +8
+	  		height: 'calc(100% - ' + ( topOffset + 8 ) + 'px)'
   		}
 		return (
 			<Scrollbars

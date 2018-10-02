@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components'	
+
+import Awards from './Awards'
 
 const Img = styled.img`
 	height: 500px;
@@ -27,7 +29,12 @@ const Label = styled.div`
 		opacity: 1;
 	`}
 `
-
+const AwardContainer = styled.div`
+	position: absolute;
+	display: inline-flex;
+	top: 0px;
+	right: 54px;
+`
 export default class SelectProjectEngine extends Component {
 	constructor(props) {
 		super(props)
@@ -50,6 +57,11 @@ export default class SelectProjectEngine extends Component {
 				xs={ 12 }
 				>
 				<Link to={ projectData.url }>
+				{ projectData.awards.active && <AwardContainer>
+					{
+						projectData.awards.content.map((x, i) => {return <Awards key={ i } awardsData={ x }/>})
+					}
+				</AwardContainer> }
 					<Img 
 						src={ projectData.landingPageImage.src } 
 						alt={ projectData.landingPageImage.alt }
