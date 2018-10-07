@@ -11,7 +11,7 @@
 				"content": []
 			},
 			"cooperation": "",
-			"mainTag": "Grafický design",
+			"mainTag": "graphicDesign",
 			"annotation": "Návrh vizuálního stylu vznikl v reakci na současnou grafickou úroveň Kovu ve městě. Obkládači koupelen by měli obkládat koupelny a silničáři opravovat cesty. Na grafické návrhy si proto zpravidla budeme sjednávat grafické designéry.\n\nRozhodl jsem se, že nezůstanu jen u opovržlivých pohledů na nevzhledně upravený katalog, který svou grafickou výzdobou potlačuje fotodokumentaci děl, a vizuální styl přepracuji tak, aby byl v symbióze s autory, které prezentuje a celé akci dodal váhu, kterou si zaslouží.\n\nTvorba obou Pavlů Tasovských je od sebe poměrně jasně odlišitelná. Pavel Tasovský mladší se přiklání ke geometrickému přístupu tvarování soch, zatímco dílo jeho otce charakterizují měkké, organické linie. Na tomto rozdílu je postavený celý nový návrh vizuálního stylu, protože výstava je vždy především o dílech vystavujících.\n\nPro výstavu jsem vytvořil i logotyp, který je rozpoznatelnější než současný a zároveň je v něm patrnější odkaz na město Lipník nad Bečvou. Ze značky je možné komponovat nejrůznější piktogramy, což posiluje celkovou neznaměnitelnost značky a její variabilitu.",
 			"landingPageImage": {
 				"src": "/img/kov-ve-meste/poster-2.jpg",
@@ -25,58 +25,91 @@
 				{
 					"cols": 6,
 					"src": "/img/kov-ve-meste/logotyp-1.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Logotyp 1"
 				}, {
 					"cols": 3,
 					"src": "/img/kov-ve-meste/logotyp-2.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Logotyp 2"
 				}, {
 					"cols": 3,
 					"src": "/img/kov-ve-meste/logotyp-3.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Logotyp 3"
 				}
 				], [
 					{
 						"cols": 12,
 						"src": "/img/kov-ve-meste/intro.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Intro"
 					}
 				], [
 					{
 						"cols": 12,
 						"src": "/img/kov-ve-meste/poster.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Poster"
 					}
 				], [
 					{
 						"cols": 12,
 						"src": "/img/kov-ve-meste/katalog.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Katalog"
 					}
 				], [
 					{
 						"cols": 6,
 						"src": "/img/kov-ve-meste/anketa.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Anketa"
 					}, {
 						"cols": 6,
 						"src": "/img/kov-ve-meste/katalog-2.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Katalog Detail"
 					}
 				], [
 					{
 						"cols": 12,
 						"src": "/img/kov-ve-meste/facebook.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Facebbok"
 					}
 				], [
 					{
 						"cols": 6,
 						"src": "/img/kov-ve-meste/triko.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Tričko"
 					}, {
 						"cols": 6,
 						"src": "/img/kov-ve-meste/taska.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Taška"
 					}
 			]]
@@ -93,10 +126,10 @@
 				"content": []
 			},
 			"cooperation": "Tomáš Blaha, Radek Mička",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "Nový design ovládacích panelů pekařských pecí přinesl zlepšení v ergonomii při obsluze stroje. Před začátkem návrhu jsme sledovali práci pekařů, abychom byli schopní proces pečení inovovat. Dále jsme se potýkali s problémem přehřívání displeje, který bylo třeba ochránit před teplem vycházejícím z pece. Proto je panel zapuštěný, což výrazně přispělo i k jeho ochraně před nárazem vozíku s pečivem, k čemu během procesu pečení může snadno dojít.\n\nMezi další cíle patřila minimalizace spár, do kterých v běžném provozu padá mouka nebo intutivní ovládaní, které by bylo dobře čitelné i při špatných světelných podmínkách nebo řešení servisních přístupů.\n\nNová estetická hodnota umožnila zařízením sebevědomé vystupování na světovém trhu.Nejtěžší částí projektu byla snaha sjednotit velmi fragmentované portfolio produktů do jednotného vizuálního celku, který by byl snadno rozpoznatelný.",
 			"landingPageImage": {
-				"src": "/img/kornfeil-ovladaci-panel/intro-vozikova-pec.jpg",
+				"src": "/img/kornfeil-ovladaci-panel/Merhaut-40.jpg",
 				"alt": "Čelní pohled na vozíkovou pec"
 			},
 			"intro": {
@@ -107,26 +140,44 @@
 				{
 					"cols": 6,
 					"src": "/img/kornfeil-ovladaci-panel/hlavni-pohled2.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vozíková pec"
 				}, {
 					"cols": 6,
 					"src": "/img/kornfeil-ovladaci-panel/8etazova-celni.pohled.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Etážová pec"
 				}], [{
 					"cols": 7,
 					"src": "/img/kornfeil-ovladaci-panel/Merhaut-40.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vozíková pec"
 				}, {
 					"cols": 5,
 					"src": "/img/kornfeil-ovladaci-panel/Panely_Salima_2018-44.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Etážová pec"
 				}], [{
 					"cols": 6,
 					"src": "/img/kornfeil-ovladaci-panel/displej-tlacitka.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vozíková pec"
 				}, {
 					"cols": 6,
 					"src": "/img/kornfeil-ovladaci-panel/etazova-pec-H1-displej-tlacitka.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Etážová pec"
 				}]
 			]
@@ -142,7 +193,7 @@
 				"content": []
 			},
 			"cooperation": "Tomáš Blaha",
-			"mainTag": "Grafický design",
+			"mainTag": "graphicDesign",
 			"annotation": "Tři roky studia jsme měli za sebou, dva nás čekaly. Nastal poločas našeho studia. Bylo třeba vydechnout, rozhlédnout se kolem, ujasnit si, kam jdeme a co necháváme za sebou.\n\nV Café Flexaret jsme představili výběr z našich bakalářských prací, na kterých jsme pracovali během jara 2014. Byla to pro nás možnost si poprvé vyzkoušet intenzivní a dlouhodobou práci na konkrétním zadání v oboru průmyslového designu. Vybírali jsme si z nabízených témat designu menší produkty, u kterých jsme se domnívali, že by se daly vylepšit. Výstava prezentuje výběr dvanácti předmětů pro každodenní použití i pro specializované činnosti.\n\nNavrhování je složitý proces, při kterém se nevyhneme chybám a slepým uličkám. Škola je místem, kde jsme měli možnost objevovat, zkoušet a učit se z chyb. Zušlechťovat věci po racionální i emoční stránce. Přemýšlet, jak dělat věci takové, aby je lidé s radostí používali.\n\nI hrníček, ze kterého možná zrovna pijete kávu, musel někdo navrhnout a jeho vývoj mohl trvat měsíc nebo dva. U židle to může být klidně i rok a půl, auto nebo lokomotiva vzniká roky.",
 			"landingPageImage": {
 				"src": "/img/polocas-designu/LOT_7959.jpg",
@@ -156,51 +207,81 @@
 				{
 					"cols": 12,
 					"src": "/img/polocas-designu/posters-serie.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Hráborýč - tonetky - břitvy"
 				}], [
 				{
 					"cols": 12,
 					"src": "/img/polocas-designu/postery-komplet.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Postery celá série"
 				}
 				], [
 				{
 					"cols": 6,
 					"src": "/img/polocas-designu/pozvanky.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Pozvánky"
 				}, {
 					"cols": 6,
 					"src": "/img/polocas-designu/LOT_7925.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Foto z vernisáže"
 				}
 				], [
 					{
 						"cols": 8,
 						"src": "/img/polocas-designu/rams.png",
+						"title": {
+							"active": false
+						},
 						"alt": "Desatero dobrého designu"
 					}, {
 						"cols": 4,
 						"src": "/img/polocas-designu/LOT_7872.jpg",
+						"title": {
+							"active": false
+						},
 						"alt": "Foto z vernisáže"
 					}
 				], [
 					{
 						"cols": 6,
 						"src": "/img/polocas-designu/LOT_7816.jpg",
+						"title": {
+							"active": false
+						},
 						"alt": "Foto z vernisáže"
 					}, {
 						"cols": 6,
 						"src": "/img/polocas-designu/LOT_7827.jpg",
+						"title": {
+							"active": false
+						},
 						"alt": "Foto z vernisáže"
 					}
 				], [
 					{
 						"cols": 6,
 						"src": "/img/polocas-designu/LOT_7802.jpg",
+						"title": {
+							"active": false
+						},
 						"alt": "Foto z vernisáže"
 					}, {
 						"cols": 6,
 						"src": "/img/polocas-designu/LOT_7876.jpg",
+						"title": {
+							"active": false
+						},
 						"alt": "Foto z vernisáže"
 					}
 				]]
@@ -215,10 +296,10 @@
 				"active": true,
 				"content": [
 					{
-						"place": 2,
+						"place": "2.",
 						"name": "Best in design, Zlín design Week 2017"
 					}, {
-						"place": 1,
+						"place": "1.",
 						"name": "Konference diplomových prací VUT FSI 2016"
 					}, {
 						"place": "A",
@@ -227,10 +308,10 @@
 				]
 			},
 			"cooperation": "",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "Vzhledem k celosvětovému přírůstku populace vznikají vysoké nároky na výnosy ze zemědělství, které musí adekvátně technologicky reagovat, aby dosáhlo požadované efektivity. Výsledkem diplomové práce je návrh vize autonomního zemědělského kombajnu, který je pro transport na pozemních komunikacích vybavený skládací žací lištou.\n\nByl zvolen obousměrný pojezd kombajnu – část vybavená žací lištou slouží pro pojezd na poli a část druhá pro transport se složenou žací lištou. V současné době jsou na trhu pouze obilné žací lišty s šířkou záběru okolo 7 metrů. Návrh přináší řešení sklápěcího mechanismu pro žací lištu o šířce záběru až 12 metrů, které zatím nemá obdoby. Výtvarné řešení klade důraz na zdůraznění autonomity kombajnu.\n\nStěžejní myšlenkou je celková automatizace zemědělství, která se jeví jako nevyhnutelný trend budoucnosti. Žací lišta v transportní poloze zkrátila délku stroje téměř o polovinu a tak velmi příznivě ovlivnila jeho manévrovací schopnosti oproti stávajícím strojům, které táhnou žací lištu na vlečce za sebou. Návrh reflektuje současné technické uzpůsobení strojů a klade si tak za cíl prezentovat možný budoucí vývoj v konkrétní podobě.\n\nDiplomová práce obdržela první místo na konferenci diplomových prací VUT FSI, druhé místo v soutěži Best in design na Zlín design weeku 2017 a Národní cenu za studentský design 2017.",
 			"landingPageImage": {
-				"src": "/img/kombajn/kombajn-lp.jpg",
+				"src": "/img/kombajn/kombajn-intro.jpg",
 				"alt": "Čelní pohled na vozíkovou pec"
 			},
 			"intro": {
@@ -241,82 +322,142 @@
 				[{
 					"cols": 6,
 					"src": "/img/kombajn/kombajn24.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vnitřní ústrojí"
 				}, {
 					"cols": 6,
 					"src": "/img/kombajn/schema_3.gif",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 4,
 					"src": "/img/kombajn/kombajn18.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vnitřní ústrojí"
 				}, {
 					"cols": 4,
 					"src": "/img/kombajn/kombajn19.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 4,
 					"src": "/img/kombajn/kombajn20.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 6,
 					"src": "/img/kombajn/kombajn16.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Vnitřní ústrojí"
 				}, {
 					"cols": 6,
 					"src": "/img/kombajn/kombajn17.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 6,
 					"src": "/img/kombajn/sklapeni.gif",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 3,
 					"src": "/img/kombajn/kombajn22.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 3,
 					"src": "/img/kombajn/kombajn23.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 6,
 					"src": "/img/kombajn/kombajn25.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 6,
 					"src": "/img/kombajn/kombajn27.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 4,
 					"src": "/img/kombajn/kombajn29.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 8,
 					"src": "/img/kombajn/kombajn28.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 4,
 					"src": "/img/kombajn/IMG_5212.JPG",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 4,
 					"src": "/img/kombajn/IMG_5161.JPG",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 4,
 					"src": "/img/kombajn/IMG_5088.JPG",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 6,
 					"src": "/img/kombajn/kombajn32.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}, {
 					"cols": 6,
 					"src": "/img/kombajn/kombajn33.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}], [{
 					"cols": 8,
 					"src": "/img/kombajn/kombajn34.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Schéma vnitřního ústrojí"
 				}]
 			]
@@ -337,7 +478,7 @@
 				]
 			},
 			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "Herní sestavu stačí připojit k elektrické zásuvce, zapnout ji a můžete začít dětem promítat na měkkou projekční podložku o velikosti 200x125cm cokoli, co se jinak běžně promítá na plátno či tabuli. Slouží ke vzdělávacím účelům a používá se především pro děti v předškolním veku.\n\nTím, že se projekce odehrává v nejpřirozenějším herním prostředí děti, tedy na zemi, je i dle zkušených učitelek MŠ tou nejvhodnější formou projekce právě pro naše nejmenší. Díky použití speciální projektoru je plocha dotyková. Uživatelé tak pomocí speciálních per nebo bezdrátové klávesnice mohou počítač ovládat přímo na promítaném obraze.\n\nPři tvorbě designu tohoto zařízení byl kladen důraz především na ergonomii, snadnou manipulaci, odkládací prostory a servisní přístupy k elektronickým komponentum uvnitř a zároveň jejich zajištění. Korpus zařízení je z bezpečnostních hledisek navržen v měkkém tvaroslovi a je vyroben z lakovaného ohýbaného dřeva.\n\nDíky použití zadních kol o větším průměru je zařízení po snadném překlopení na zadní opěrné nožky schopno promítat na zeď. Magicbox je nabízen v několika barevných variantách. Vkládané bočnice jsou navrženy ve více provedeních s různými rastry. Otvory, sloužící jako průduchy k chlazení elektroniky, dotvařejí unikátní vzhled tohoto produktu.\n\nMagicbox E2 byl poprvé představen v lednu 2016 na veletrhu BETT v Londýně.",
 			"landingPageImage": {
 				"src": "/img/magicbox/landingPage.jpg",
@@ -351,100 +492,59 @@
 				[{
 					"cols": 4,
 					"src": "/img/magicbox/geomVar.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Geometrická varianta"
 				}, {
 					"cols": 4,
 					"src": "/img/magicbox/fibboVar.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Fibbonacciho varianta"
 				}, {
 					"cols": 4,
 					"src": "/img/magicbox/rozpal.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Komponenty"
 				}], [{
 					"cols": 12,
 					"src": "/img/magicbox/barevneVar.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Barevné varianty"
 				}], [{
 					"cols": 6,
 					"src": "/img/magicbox/linieKomponenty1.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Komponenty"
 				}, {
 					"cols": 6,
 					"src": "/img/magicbox/linieKomponenty2.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Komponenty"
 				}], [{
 					"cols": 4,
 					"src": "/img/magicbox/magicBoxBok.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Horizontální poloha"
 				}, {
 					"cols": 8,
 					"src": "/img/magicbox/foto1.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Fotografie z MŠ"
-				}]
-			]
-		}, {
-			"id": 9,
-			"active": true, 
-			"secretOne": false,
-			"url": "/project/designera",
-			"projectName": "Designéra!",
-			"subTitle": "Výstava diplomových prací FSI VUT",
-			"awards": {
-				"active": false,
-				"content": []
-			},
-			"cooperation": "Tomáš Blaha",
-			"mainTag": "Grafický design",
-			"annotation": "Designéra! byla retrospektivně-perspektivní výstava vybraných prací z historie oboru – od 90. let až po současnost. Odtud název, složenina “design” a “éra”. Pokud jste personalistou, jistě Vám neujde i druhý význam, a to zoufalé volání při shánění odborníka, se kterým potřebujete konzultovat řešení nového produktu.\n\nCílem výstavy, bylo přiblížit lidem práci designérů. FSI VUT v Brně je jedna z mála škol technického zaměření, na které se učí design, z tohoto důvodu se výstava koná již tradičně v brněnském Technickém muzeu.\n\nExpozice měla za cíl vyvrátit představu designéra jako člověka, který řeší pouze tvar a barvu produktů. Naopak snaží prezentovat designéra jako člověka se schopností myslet analyticky, nacházet inovativní řešení a hledat souvislosti mezi zdánlivě nesouvisejícími tématy – marketingem, obchodní strategií či psychologií.\n\nZ diplomových prací se bylo možné těšit například na návrh kloubové řezačky, vizi letištního tahače, nebo design ortézy založený na parametrickém modelování. Dále na vize obráběcích strojů pro nové tisíciletí od studentů čtvrtého ročníku nebo ukázky školních prací v současnosti úspěšných absolventů.",
-			"landingPageImage": {
-				"src": "/img/designera/designera-intro.jpg",
-				"alt": "Sítotisk - plakát"
-			},
-			"intro": {
-				"src": "/img/designera/poster-mockup.jpg",
-				"alt": "Čelní pohled na vozíkovou pec"
-			},
-			"content": [
-				[{
-					"cols": 6,
-					"src": "/img/designera/katalog1.jpg",
-					"alt": "Katalog k výstavě"
-				}, {
-					"cols": 6,
-					"src": "/img/designera/designera-main.jpg",
-					"alt": "Fotografie z vernisáže"
-				}], [{
-					"cols": 6,
-					"src": "/img/designera/pozvanka.jpg",
-					"alt": "Pozvánka na vernisáž"
-				}, {
-					"cols": 6,
-					"src": "/img/designera/letak.jpg",
-					"alt": "Fotografie z vernisáže"
-				}], [{
-					"cols": 4,
-					"src": "/img/designera/taska-designera.jpg",
-					"alt": "Plátěná taška Designera"
-				}, {
-					"cols": 8,
-					"src": "/img/designera/DSC07379.jpg",
-					"alt": "Expozice na Czech Design Week 2017"
-				}], [{
-					"cols": 12,
-					"src": "/img/designera/katalog-history.jpg",
-					"alt": "Katalog – historické modely"
-				}], [{
-					"cols": 12,
-					"src": "/img/designera/katalog-diplomky.jpg",
-					"alt": "Katalog – diplomové práce 2017"
-				}], [{
-					"cols": 12,
-					"src": "/img/designera/katalog-vize.jpg",
-					"alt": "Katalog – vize obráběcích strojů"
-				}], [{
-					"cols": 6,
-					"src": "/img/designera/katalog-vize.jpg",
-					"alt": "Katalog – vize obráběcích strojů"
 				}]
 			]
 		}, {
@@ -459,7 +559,7 @@
 				"content": []
 			},
 			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "",
 			"landingPageImage": {
 				"src": "/img/omv/detail-zalomena.jpg",
@@ -473,14 +573,23 @@
 				{
 					"cols": 6,
 					"src": "/img/omv/deska-zalomena-perspektivni-pohled-tmava-rozsvicena.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Vozíková pec"
 				}, {
 					"cols": 3,
 					"src": "/img/omv/deska-zalomena-perspektivni-pohled-tmava.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Etážová pec"
 				}, {
 					"cols": 3,
 					"src": "/img/omv/flat-predni-svetlejsi-symetricka.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Etážová pec"
 				}]
 			]
@@ -496,7 +605,7 @@
 				"content": []
 			},
 			"cooperation": "Martin Tvarůžek",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "",
 			"landingPageImage": {
 				"src": "/img/historicky-stojan/historicky-stojan-3.png",
@@ -510,14 +619,23 @@
 				{
 					"cols": 6,
 					"src": "/img/historicky-stojan/historicky-stojan-2.png",
+					"title": {
+						"active": false
+					},
 					"alt": "Historický stojan Adast"
 				}, {
 					"cols": 3,
 					"src": "/img/historicky-stojan/VAR8-2.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Historický stojan Adast"
 				}, {
 					"cols": 3,
 					"src": "/img/historicky-stojan/VAR8-4.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Historický stojan Adast"
 				}]
 			]
@@ -533,7 +651,7 @@
 				"content": []
 			},
 			"cooperation": "Martin Tvarůžek, Tomáš Blaha",
-			"mainTag": "Průmyslový design",
+			"mainTag": "industrialDesign",
 			"annotation": "",
 			"landingPageImage": {
 				"src": "/img/tankautomat/rendr.317.png",
@@ -547,11 +665,457 @@
 				{
 					"cols": 6,
 					"src": "/img/tankautomat/bratislava-zlate-piesky.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Tankovací automat CardManager Slim"
 				}, {
 					"cols": 6,
 					"src": "/img/tankautomat/slim-refyz-ergon.jpg",
+					"title": {
+						"active": false
+					},
 					"alt": "Tankovací automat CardManager Slim"
+				}]
+			]
+		}, {
+			"id": 9,
+			"active": true, 
+			"secretOne": false,
+			"url": "/project/designera",
+			"projectName": "Designéra!",
+			"subTitle": "Výstava diplomových prací FSI VUT",
+			"awards": {
+				"active": false,
+				"content": []
+			},
+			"cooperation": "Tomáš Blaha",
+			"mainTag": "graphicDesign",
+			"annotation": "Designéra! byla retrospektivně-perspektivní výstava vybraných prací z historie oboru – od 90. let až po současnost. Odtud název, složenina “design” a “éra”. Pokud jste personalistou, jistě Vám neujde i druhý význam, a to zoufalé volání při shánění odborníka, se kterým potřebujete konzultovat řešení nového produktu.\n\nCílem výstavy, bylo přiblížit lidem práci designérů. FSI VUT v Brně je jedna z mála škol technického zaměření, na které se učí design, z tohoto důvodu se výstava koná již tradičně v brněnském Technickém muzeu.\n\nExpozice měla za cíl vyvrátit představu designéra jako člověka, který řeší pouze tvar a barvu produktů. Naopak snaží prezentovat designéra jako člověka se schopností myslet analyticky, nacházet inovativní řešení a hledat souvislosti mezi zdánlivě nesouvisejícími tématy – marketingem, obchodní strategií či psychologií.\n\nZ diplomových prací se bylo možné těšit například na návrh kloubové řezačky, vizi letištního tahače, nebo design ortézy založený na parametrickém modelování. Dále na vize obráběcích strojů pro nové tisíciletí od studentů čtvrtého ročníku nebo ukázky školních prací v současnosti úspěšných absolventů.",
+			"landingPageImage": {
+				"src": "/img/designera/poster-mockup.jpg",
+				"alt": "Sítotisk - plakát"
+			},
+			"intro": {
+				"src": "/img/designera/poster-mockup.jpg",
+				"alt": "Čelní pohled na vozíkovou pec"
+			},
+			"content": [
+				[{
+					"cols": 6,
+					"src": "/img/designera/katalog1.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog k výstavě"
+				}, {
+					"cols": 6,
+					"src": "/img/designera/designera-main.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Fotografie z vernisáže"
+				}], [{
+					"cols": 6,
+					"src": "/img/designera/pozvanka.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Pozvánka na vernisáž"
+				}, {
+					"cols": 6,
+					"src": "/img/designera/letak.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Fotografie z vernisáže"
+				}], [{
+					"cols": 4,
+					"src": "/img/designera/taska-designera.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Plátěná taška Designera"
+				}, {
+					"cols": 8,
+					"src": "/img/designera/DSC07379.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Expozice na Czech Design Week 2017"
+				}], [{
+					"cols": 12,
+					"src": "/img/designera/katalog-history.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – historické modely"
+				}], [{
+					"cols": 12,
+					"src": "/img/designera/katalog-diplomky.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – diplomové práce 2017"
+				}], [{
+					"cols": 12,
+					"src": "/img/designera/katalog-vize.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – vize obráběcích strojů"
+				}], [{
+					"cols": 3,
+					"src": "/img/designera/IMG_3821.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Sítotisk plakátů"
+				}, {
+					"cols": 3,
+					"src": "/img/designera/IMG_3827.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Sítotisk plakátů"
+				}, {
+					"cols": 6,
+					"src": "/img/designera/IMG_3833.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Sítotisk plakátů"
+				}], [{
+					"cols": 6,
+					"src": "/img/designera/DSC_0401.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – vize obráběcích strojů"
+				}, {
+					"cols": 6,
+					"src": "/img/designera/DSC_0408.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – vize obráběcích strojů"
+				}], [{
+					"cols": 8,
+					"src": "/img/designera/DSC07348.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Katalog – vize obráběcích strojů"
+				}]
+			]
+		}, {
+			"id": 10,
+			"active": true, 
+			"secretOne": false,
+			"url": "/project/logofolio",
+			"projectName": "Logotypy",
+			"subTitle": "Vybrané logotypy za období od 2015 do 2018",
+			"awards": {
+				"active": false,
+				"content": []
+			},
+			"cooperation": "",
+			"mainTag": "graphicDesign",
+			"annotation": "",
+			"landingPageImage": {
+				"src": "/img/logofolio/intro.jpg",
+				"alt": "Logofolio 2015–2018"
+			},
+			"intro": {
+				"src": "/img/logofolio/cover.jpg",
+				"alt": "Logofolio 2015–2018"
+			},
+			"content": [[
+				{
+					"cols": 12,
+					"src": "/img/logofolio/frusack.jpg",
+					"title": {
+						"active": false
+					},
+					"title": {
+						"active": true,
+						"header": "Kompostovatelné sáčky na ovoce a zeleninu",
+						"subTitle": "Alternativa k mikrotenovým sáčkům"
+					},
+					"alt": "Frusack"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/awis.jpg",
+					"title": {
+						"active": true,
+						"header": "Pokladní systémy a gastronomie",
+						"subTitle": "Technologie v pohostinství a gastronomii"
+					},
+					"alt": "Awis"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/axinet.jpg",
+					"title": {
+						"active": true,
+						"header": "Informační systém Axinet",
+						"subTitle": "Monitorování sérií bateriových nabíječů"
+					},
+					"alt": "Axinet"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/brainio.jpg",
+					"title": {
+						"active": true,
+						"header": "Software pro developery",
+						"subTitle": "Myšlenková mapa navržená pro programátory"
+					},
+					"alt": "Brainio"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/dama.jpg",
+					"title": {
+						"active": true,
+						"header": "Úklidová firma",
+						"subTitle": "Ekologicky šetrný úklid"
+					},
+					"alt": "Úklidová společnost Dama"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/designera.jpg",
+					"title": {
+						"active": true,
+						"header": "Výstava diplomových prací průmyslového designu",
+						"subTitle": "Historie, současnost a budoucnost"
+					},
+					"alt": "DesignÉRA"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/iqrf.jpg",
+					"title": {
+						"active": true,
+						"header": "Bezdrátový síťový přenos dat",
+						"subTitle": "Využití v sítích IoT"
+					},
+					"alt": "Iqrf"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/keep-moving.jpg",
+					"title": {
+						"active": true,
+						"header": "Studentský veletrh",
+						"subTitle": "Možnosti studia v zahraničí"
+					},
+					"alt": "Keep Moving"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/metropolitan.jpg",
+					"title": {
+						"active": true,
+						"header": "Brněnský metropolitan",
+						"subTitle": "Soutěžní návrh logotypu pro Brněnské periodikum"
+					},
+					"alt": "Brněnský metropolitan"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/myland.jpg",
+					"title": {
+						"active": true,
+						"header": "Energetické úspory na energiích",
+						"subTitle": "Zavádění spořivých technologií pro objekty"
+					},
+					"alt": "Myland Solutions"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/polocas.jpg",
+					"title": {
+						"active": true,
+						"header": "Výstava bakalářských prací",
+						"subTitle": "Výběr 12 nejlepších bakalářek v Café Flexaret"
+					},
+					"alt": "Poločas designu"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/scienceparty.jpg",
+					"title": {
+						"active": true,
+						"header": "Neformální vědecká konference",
+						"subTitle": "Zmrzlina chlazená dusíkem, básně a vědecké přednášky",
+						"inverse": true
+					},
+					"alt": "Science Party"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/setrizatri.jpg",
+					"title": {
+						"active": true,
+						"header": "Úspora na dodavatelích za energie",
+						"subTitle": "Transparentní služba, která je založená na upřímnosti"
+					},
+					"alt": "Šetři za tři"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/studental.jpg",
+					"title": {
+						"active": true,
+						"header": "Vzdělávání zubařů zubaři",
+						"subTitle": "Přednášky a workshopy"
+					},
+					"alt": "Studental"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/tactic.jpg",
+					"title": {
+						"active": true,
+						"header": "Workshopy pro univerzity v Ásii",
+						"subTitle": "Výměna zkušeností mezi Evropskými a Asijskými univerzitami"
+					},
+					"alt": "Tactic"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/uniq.jpg",
+					"title": {
+						"active": true,
+						"header": "CRM systém",
+						"subTitle": "Redesign vizuálního stylu CRM systému"
+					},
+					"alt": "CRM systém Uniq"
+				}]
+			]
+		}, {
+			"id": 11,
+			"active": true, 
+			"secretOne": false,
+			"url": "/project/pekarske-pece-uzivatelske-rozhrani",
+			"projectName": "Uživatelské rozhraní pro pekařské pece",
+			"subTitle": "Konceptuální návrh uživatelského rozhraní pro pece Kornfeil",
+			"awards": {
+				"active": false,
+				"content": []
+			},
+			"cooperation": "",
+			"mainTag": "graphicDesign",
+			"annotation": "",
+			"landingPageImage": {
+				"src": "/img/ui-kornfeil/intro.jpg",
+				"alt": "Logofolio 2015–2018"
+			},
+			"intro": {
+				"src": "/img/logofolio/cover.jpg",
+				"alt": "Logofolio 2015–2018"
+			},
+			"content": [[
+				{
+					"cols": 12,
+					"src": "/img/logofolio/frusack.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Frusack"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/awis.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Awis"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/axinet.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Axinet"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/brainio.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Brainio"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/dama.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Úklidová společnost Dama"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/designera.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "DesignÉRA"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/iqrf.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Iqrf"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/keep-moving.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Keep Moving"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/metropolitan.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Brněnský metropolitan"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/myland.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Myland Solutions"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/polocas.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Poločas designu"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/scienceparty.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Science Party"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/setrizatri.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Šetři za tři"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/studental.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Studental"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/tactic.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "Tactic"
+				}, {
+					"cols": 12,
+					"src": "/img/logofolio/uniq.jpg",
+					"title": {
+						"active": false
+					},
+					"alt": "CRM systém Uniq"
 				}]
 			]
 		}]

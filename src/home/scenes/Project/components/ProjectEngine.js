@@ -1,51 +1,12 @@
 import React, { Component } from 'react';
-import { Col, Row, Container } from 'reactstrap'
+import { Row, Container } from 'reactstrap'
 import * as R from 'ramda'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-
-const Footer = styled.div`
-	padding: 30px 60px;
-	display: inline-block;
-	background-color: black;
-	color: white;
-	letter-spacing: .06em;
-	text-transform: uppercase;
-	font-size: 12px;
-	margin-left: 15px;
-	a {
-		color: white;
-	}
-	a:visited {
-		color: white;
-	}
-	a:hover {
-		text-decoration: none;
-	}
-`
-const ProjectTitle = styled(Col)`
-	h1 {
-		margin: 22px 0 18px 0;
-	}
-	p {
-		color: gray;
-		line-height: 28px;
-	}
-	.awards {
-		color: black;
-	}
-`
-const ProjectAnnotation = styled(Col)`
-	p {
-		margin: 70px 0 100px 0;
-	}
-`
-const ProjectContent = styled(Col)`
-	margin-bottom: 30px;
-	img {
-		object-fit: cover;
-	}
-`
+import { Footer,
+ProjectTitle,
+ProjectAnnotation,
+ProjectContent,
+ImageTitle } from './StyledComponents/StyledProjectEngine'
 
 export default class ProjectEngine extends Component {
 	render() {
@@ -73,7 +34,7 @@ export default class ProjectEngine extends Component {
 							<p className="awards">
 								{ projectData.awards.content.map(x => {
 									const ranking = place => {
-										return (R.is(Number, place) ? place + '. místo\u2003' : 'Ocenění\u2003')
+										return (place === 'A' ? 'Ocenění\u2003' : place + ' místo\u2003')
 									}
 									return ranking(x.place) + x.name + '\n'
 								}) }
@@ -103,8 +64,13 @@ export default class ProjectEngine extends Component {
 												sm={ 12 }
 												xs={ 12 }
 												>
+											{ y.title.active && 
+												<ImageTitle inverse={ y.title.inverse }>
+													<h1>{ y.title.header }</h1>
+													<p>{ y.title.subTitle }</p>
+												</ImageTitle> }
 											<img src={ window.location.origin + y.src } alt={ y.alt } />
-										</ProjectContent> 
+										</ProjectContent>
 									)
 								}) }
 							</Row>

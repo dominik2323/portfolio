@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import Header from './home/scenes/consts/Header'
-import Footer from './home/scenes/consts/Footer'
-import Selectcontent from './home/scenes/Selectcontent'
+import Header from './home/scenes/Header'
+import Selectcontent from './home/scenes'
 import { connect } from 'react-redux'
 
 import Scrollbar from './home/scenes/consts/Scrollbar'
@@ -9,14 +8,15 @@ import { withRouter } from "react-router-dom";
 
 import { dataLoader } from './home/store/actions'
 
-
 class Root extends Component {
   componentWillMount() {
     const { loadData } = this.props
-    return (loadData())
+    return loadData()
+  }
+  componentDidMount() {
+    return null
   }
   render() {
-  	
     return (
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}>
         <Scrollbar topOffset={ 124 }>

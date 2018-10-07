@@ -3,14 +3,13 @@ import { createSelector } from "reselect"
 
 import { 
 	getProjectData,
-	getActiveBioContent,
-	getBioData
+	getProjectFilter,
+	getOrderData
 } from './reducer'
 
-const getPathname = state => state.router.location.pathname
-// R.path(['router', 'location', 'pathname'], (state))
+export const getPathname = state => state.router.location.pathname
 
-const simpleProjects = getProjectData => ({
+const simpleProjects = ( getProjectData ) => ({
 	id: R.prop('id', getProjectData),
 	active: R.prop('active', getProjectData),
 	subTitle: R.prop('subTitle', getProjectData),
@@ -26,21 +25,40 @@ const simpleProjects = getProjectData => ({
 export const selectActiveProjectData = createSelector(
 	getProjectData,
 	getPathname,
-	(getProjectData, getPathname) => {
+	(getProjectData, getPathname) => R.filter(R.propEq('url', getPathname), getProjectData)
+)
+
+
+export const selectActiveOrder = createSelector(
+	getProjectFilter, 
+	getOrderData, 
+	(getProjectFilter, getOrderData) => R.prop(getProjectFilter, getOrderData)
+)
+
+// Combined with size settings of project imgs
+export const selectSimpleProjects = createSelector(
+	getProjectData, 
+	selectActiveOrder,
+	(getProjectData, selectActiveOrder) => {
 		return (
-			R.filter(R.propEq('url', getPathname), getProjectData)	
+			R.map(x => 
+				R.merge(
+					R.map(simpleProjects, getProjectData)[x.id - 1],
+					{ size: x.size }
+				), selectActiveOrder
+			)
 		)
 	}
 )
 
-export const selectSimpleProjects = createSelector(getProjectData, R.map(simpleProjects))
-
-export const selectActiveBioData = createSelector(
-	getBioData,
-	getActiveBioContent,
-	(getBioData, getActiveBioContent) => {
-		return R.filter(R.propEq('id', getActiveBioContent), getBioData)
+export const selectFilteredProjects = createSelector(
+	selectSimpleProjects,
+	selectActiveOrder,
+	(selectSimpleProjects, selectActiveOrder) => {
+		const pick = x => R.filter(R.propEq('id', x.id), selectSimpleProjects)
+		return R.flatten(R.map(pick, selectActiveOrder))
 	}
 )
+
 
 	

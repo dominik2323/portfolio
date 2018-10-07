@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
 import * as R from 'ramda'
 import styled, { css } from 'styled-components'
-
-const colors = {
-	1: 'e8d590',
-	2: 'c8d5de',
-	3: 'eba98d',
-	'A': 'e8d590'
-}
+import { scheme } from '../../../consts/scheme'
 
 const AwardPlaceholder = styled.div`
 	position: relative;
 	font-size: 14px;
-	color: white;
+	color: ${ scheme.white };
 	font-weight: 800;
 	margin-left: 10px;		
 	background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' width='106.8px' height='206.8px' viewBox='0 0 106.8 206.8' style='enable-background:new 0 0 106.8 206.8;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23${ props => props.place };%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpolygon class='st0' points='106.8,206.8 53.4,170.5 0,206.8 0,0 106.8,0 '/%3E%3C/svg%3E%0A");
@@ -47,7 +41,7 @@ export default class Awards extends Component {
 		this.setAwardHover = this.setAwardHover.bind(this)
 	}
 	selectColor(place) {
-		return R.prop(place, colors)
+		return R.prop(place, scheme)
 	}
 	setAwardHover(props) {
 		this.setState({

@@ -28,6 +28,10 @@ h1 {
 	letter-spacing: .02em;
 	font-weight: 900;
 }
+a, a:hover, a:visited {
+	color: #171D1F;
+	text-decoration: none;
+}
 .intro {
 	width: 100%;
 	height: 90%;
