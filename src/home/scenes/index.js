@@ -6,7 +6,8 @@ import SelectProject from './SelectProject/'
 import ErrProject from './Project/Components/ErrProject'
 import About from './About'
 
-const Selectcontent = () => {
+const Selectcontent = ({ isLoading }) => {
+	if (isLoading) return null 
     return (
 		<div style={{ marginTop: '124px' }}>
 			<Switch>

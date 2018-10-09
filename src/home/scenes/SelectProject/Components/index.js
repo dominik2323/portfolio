@@ -21,29 +21,29 @@ export default class SelectProjectEngine extends Component {
 		this.setState({ onHover: !this.state.onHover })
 	}
 	render() {
-		const { projectData } = this.props
+		const { featuredProject } = this.props
 		return (
 			<ProjectContainer 
-				xl={ projectData.size === 'big' ? 8 : 4 }
-				lg={ projectData.size === 'big' ? 8 : 4 }
+				xl={ featuredProject.size === 'big' ? 8 : 4 }
+				lg={ featuredProject.size === 'big' ? 8 : 4 }
 				md={ 6 } 
 				sm={ 12 }
 				xs={ 12 }
-				height={ projectData.size }
+				height={ featuredProject.size }
 				>
-				<Link to={ projectData.url }>
-				{ projectData.awards.active && <AwardContainer>
+				<Link to={ featuredProject.url }>
+				{ featuredProject.awards.active && <AwardContainer>
 					{
-						projectData.awards.content.map(( x, i ) => {return <Awards key={ i } awardsData={ x }/>})
+						featuredProject.awards.content.map(( x, i ) => {return <Awards key={ i } awardsData={ x }/>})
 					}
 				</AwardContainer> }
 					<Img 
-						src={ projectData.landingPageImage.src } 
-						alt={ projectData.landingPageImage.alt }
+						src={ featuredProject.landingPageImage.src } 
+						alt={ featuredProject.landingPageImage.alt }
 						onMouseOver={ this.onHoverHandler }
 						onMouseOut={ this.onHoverHandler }
 						/>
-					<Label showLabel={ this.state.onHover }>{ projectData.projectName }</Label>
+					<Label showLabel={ this.state.onHover }>{ featuredProject.projectName }</Label>
 				</Link>
 			</ProjectContainer>
 		);

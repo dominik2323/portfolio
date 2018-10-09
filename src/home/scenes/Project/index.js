@@ -3,11 +3,10 @@ import { connect } from 'react-redux'
 
 import ProjectEngine from './Components/ProjectEngine'
 import ErrProject from './Components/ErrProject'
-import { getLoadingStatus } from '../../store/reducer'
 import { selectActiveProjectData } from '../../store/selectors'
 import * as R from "ramda"
 
-const Project = ({ projectData, loading }) => {
+const Project = ({ projectData }) => {
 	return (
 		!R.isEmpty(projectData) ? <ProjectEngine projectData={ projectData[0] }/> : <ErrProject/> 
 	)
@@ -16,6 +15,5 @@ const Project = ({ projectData, loading }) => {
 export default connect(
 	state => ({
 		projectData: selectActiveProjectData(state),
-		loading: getLoadingStatus(state)
 	})
 )(Project)

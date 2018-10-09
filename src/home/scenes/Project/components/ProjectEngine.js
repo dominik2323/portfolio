@@ -32,7 +32,7 @@ export default class ProjectEngine extends Component {
 								{ !R.isEmpty(projectData.cooperation) && '\nSpolupráce: ' + projectData.cooperation }
 							</p>
 							<p className="awards">
-								{ projectData.awards.content.map(x => {
+								{ projectData.awards.active && projectData.awards.content.map(x => {
 									const ranking = place => {
 										return (place === 'A' ? 'Ocenění\u2003' : place + ' místo\u2003')
 									}

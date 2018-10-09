@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { selectFilteredProjects } from '../../store/selectors'
 import { filterProjectActivator } from '../../store/actions'
-import { getProjectFilter, getLoadingStatus } from '../../store/reducer'
+import { getProjectFilter } from '../../store/reducer'
 import SelectProjectEngine from './Components/'
 import { Container, Row } from 'reactstrap'
 import Filter from './Components/Components/Filter'
@@ -21,7 +21,7 @@ const Footer = styled.div`
 	cursor: pointer;
 `
 
-const SelectProject = ({ featuredProjects, toggleFilter, getProjectFilter, activeFilter, loading }) => {
+const SelectProject = ({ featuredProjects, toggleFilter, getProjectFilter, activeFilter }) => {
     return (
 		<Container fluid>
 		<Row>
@@ -29,9 +29,9 @@ const SelectProject = ({ featuredProjects, toggleFilter, getProjectFilter, activ
 		</Row>
 		<Row>
 			{
-				featuredProjects.map((projectData, i) => {
+				featuredProjects.map((featuredProject, i) => {
 					return (
-						<SelectProjectEngine key={ i } projectData={ projectData }/>
+						<SelectProjectEngine key={ i } featuredProject={ featuredProject }/>
 					)
 				})
 			}
@@ -48,7 +48,6 @@ export default connect(
 	state => ({
 		featuredProjects: selectFilteredProjects(state),
 		activeFilter: getProjectFilter(state),
-		loading: getLoadingStatus(state)
 	}),
 	dispatch => ({
 		toggleFilter(tag) {
