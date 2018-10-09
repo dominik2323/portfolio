@@ -983,7 +983,7 @@
 			]
 		}, {
 			"id": 11,
-			"active": true, 
+			"active": false, 
 			"secretOne": false,
 			"url": "/project/pekarske-pece-uzivatelske-rozhrani",
 			"projectName": "Uživatelské rozhraní pro pekařské pece",

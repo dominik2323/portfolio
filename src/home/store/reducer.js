@@ -3,14 +3,16 @@ import {
 	PROJECT_DATA,
 	CONTACT_OPENED,
 	FILTER_PROJECTS,
-	ORDER_DATA
+	ORDER_DATA,
+	LOADING
  } from './types'
 
 const defaultState = {
 	"projectData": [],
 	"orderData": [],
 	"contactOpened": false,
-	"filterProjects": 'featured'
+	"filterProjects": 'featured',
+	"loading": true
 }
 
 export const reducer = (state = defaultState, action) => {
@@ -27,6 +29,9 @@ export const reducer = (state = defaultState, action) => {
 		case ORDER_DATA: {
 			return R.assoc('orderData', action.payload, state)
 		}
+		case LOADING: {
+			return R.assoc('loading', action.payload, state)
+		}
 		default: {
 			return state
 		}
@@ -37,4 +42,5 @@ export const isContactOpened = R.path(['main', 'contactOpened']);
 export const getProjectData = R.path(['main', 'projectData']);
 export const getProjectFilter = R.path(['main', 'filterProjects']);
 export const getOrderData = R.path(['main', 'orderData']);
+export const getLoadingStatus = R.path(['main', 'loading']);
 
