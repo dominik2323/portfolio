@@ -21,10 +21,11 @@ export default class Filter extends Component {
 		const { toggleFilter, activeFilter } = this.props
 		return (
 			<FilterContainer>
-				<FilterItems onClick={ () => toggleFilter('featured') } active={ activeFilter === 'featured' }>Nejlepší projekty</FilterItems>
-				<FilterItems onClick={ () => toggleFilter('industrialDesign') } active={ activeFilter === 'industrialDesign' }>Průmyslový design</FilterItems>
-				<FilterItems onClick={ () => toggleFilter('graphicDesign') } active={ activeFilter === 'graphicDesign' }>Grafický design</FilterItems>
-				<FilterItems onClick={ () => toggleFilter('all') } active={ activeFilter === 'all' }>Všechny projekty</FilterItems>
+				<FilterItems onClick={ () => toggleFilter('breakfast') } active={ activeFilter === 'breakfast' }>Snídaně</FilterItems>
+				<FilterItems onClick={ () => toggleFilter('brunch') } active={ activeFilter === 'brunch' }>Svačiny / malá jídla</FilterItems>
+				<FilterItems onClick={ () => toggleFilter('soups') } active={ activeFilter === 'soups' }>Polévky</FilterItems>
+				<FilterItems onClick={ () => toggleFilter('lunch') } active={ activeFilter === 'lunch' }>Hlavní chody</FilterItems>
+				<FilterItems onClick={ () => toggleFilter('desserts') } active={ activeFilter === 'desserts' }>Dezerty</FilterItems>
 			</FilterContainer>
 		);
 	}

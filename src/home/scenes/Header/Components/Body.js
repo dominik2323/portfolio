@@ -19,8 +19,8 @@ export default class Body extends Component {
 						md={ 9 } 
 						sm={ 8 }
 						xs={ 12 }>
-					<h1><Link to="/" onClick={ () => toggleDefaultHeader(false) }>Dominik Tomczik</Link></h1>
-					<h2>( průmyslový  &&  grafický designér )</h2>
+					<h1><Link to="/" onClick={ () => toggleDefaultHeader(false) }>Barbora Tomczik</Link></h1>
+					<h2>food blog</h2>
 				</Name>
 				<Beta 
 						xl={{ size: 2, offset: 0 }} 

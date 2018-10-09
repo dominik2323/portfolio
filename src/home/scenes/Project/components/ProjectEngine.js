@@ -13,10 +13,6 @@ export default class ProjectEngine extends Component {
 		const { projectData } = this.props
 		return (
 			<div>
-				<img 
-					src={ projectData.intro.src } 
-					alt={ projectData.intro.alt } 
-					style={{ maxHeight: "100vh", objectFit: "cover" }}/>
 				<Container fluid>
 					<Row>
 						<ProjectTitle 
@@ -31,14 +27,6 @@ export default class ProjectEngine extends Component {
 								{ projectData.subTitle }
 								{ !R.isEmpty(projectData.cooperation) && '\nSpolupráce: ' + projectData.cooperation }
 							</p>
-							<p className="awards">
-								{ projectData.awards.content.map(x => {
-									const ranking = place => {
-										return (place === 'A' ? 'Ocenění\u2003' : place + ' místo\u2003')
-									}
-									return ranking(x.place) + x.name + '\n'
-								}) }
-							</p>
 						</ProjectTitle>
 					</Row>
 					<Row>
@@ -49,6 +37,15 @@ export default class ProjectEngine extends Component {
 								sm={{ size: 12, offset: 0 }}  
 								xs={{ size: 12, offset: 0 }}>
 							<p>{ projectData.annotation }</p>
+							<h1>Ingredience</h1>
+							<ul>
+								{ projectData.ingredients.map((x, i) => {
+									return <li key={ i }>{ x.amount + ' ' + x.unit + '\u2003' + x.name }</li>
+								}) }
+							</ul>
+							{ projectData.instructions.map((x, i) => {
+								return <p key={ i }>{ x }</p>
+							})}
 						</ProjectAnnotation>
 					</Row>
 					{ !R.isEmpty(projectData.content) && projectData.content.map((x, i) => {

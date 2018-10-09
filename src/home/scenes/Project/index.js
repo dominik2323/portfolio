@@ -8,6 +8,7 @@ import { selectActiveProjectData } from '../../store/selectors'
 import * as R from "ramda"
 
 const Project = ({ projectData, loading }) => {
+	console.log('projectData', projectData)
 	return (
 		!R.isEmpty(projectData) ? <ProjectEngine projectData={ projectData[0] }/> : <ErrProject/> 
 	)
