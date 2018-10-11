@@ -16,10 +16,6 @@ import database from 'firebase/database'
 import firebase from '../../database/firebase'
 
 
-const conditions = R.where({
-	active: R.equals(true),
-	// secretOne: R.equals(false),
-})
 
 // enable to offline version
 // export const dataLoader = () => dispatch => {
@@ -29,9 +25,14 @@ const conditions = R.where({
 // }
 
 export const dataLoader = () => dispatch => {
-	const ref = firebase.database().ref().once('value')
-	ref.then(x => {
+	const ref = firebase.database().ref()
+	ref.on('value', x => {
 		let dataTree = x.val()
+		let secretOnesCondition = dataTree.secretOnes ? R.either(R.equals(false), R.equals(true)) : R.equals(false)
+		const conditions = R.where({
+			'active': R.equals(true),
+			'secretOne': secretOnesCondition
+		})
 		dispatch(fetchData(R.filter(conditions, dataTree.data)))
 		dispatch(fetchDataOrder(dataTree.dataOrder))
 		dispatch(loader(false))

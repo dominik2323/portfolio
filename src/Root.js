@@ -15,7 +15,7 @@ class Root extends Component {
     return loadData()
   }
   render() {
-    console.log('env', process.env.API_URL);
+    console.log('env', process.env.REACT_APP_API_URL);
     const { isLoading } = this.props
     return (
       <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}>

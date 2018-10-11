@@ -5,7 +5,6 @@ import React from 'react'
 
 export const ContactInfo = styled.div`
 	position: absolute;
-	bottom: 80px;
 `
 
 export const Navigation = styled(({ active, ...props }) => <Link {...props} />)`
