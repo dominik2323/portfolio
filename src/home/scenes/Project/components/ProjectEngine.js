@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 import { Footer,
 ProjectTitle,
 ProjectAnnotation,
-ProjectContent,
-ImageTitle } from './StyledComponents/StyledProjectEngine'
+ProjectContent } from './StyledComponents/StyledProjectEngine'
+import EvalGrid from './EvalGrid'
 
 export default class ProjectEngine extends Component {
 	render() {
@@ -51,31 +51,9 @@ export default class ProjectEngine extends Component {
 							<p>{ projectData.annotation }</p>
 						</ProjectAnnotation>
 					</Row>
-					{ !R.isEmpty(projectData.content) && projectData.content.map((x, i) => {
-						return (
-							<Row key={ i }>
-								{ x.map((y, k) => {
-									return (
-										<ProjectContent 
-												key={ k } 
-												xl={ y.cols }
-												lg={ y.cols }
-												md={ 12 }
-												sm={ 12 }
-												xs={ 12 }
-												>
-											{ y.title.active && 
-												<ImageTitle inverse={ y.title.inverse }>
-													<h1>{ y.title.header }</h1>
-													<p>{ y.title.subTitle }</p>
-												</ImageTitle> }
-											<img src={ window.location.origin + y.src } alt={ y.alt } />
-										</ProjectContent>
-									)
-								}) }
-							</Row>
-						)
-					})}
+					<Row>
+						<EvalGrid data={ projectData.content } />
+					</Row>
 					<Link to="/">
 						<Footer>
 							Zpět na hlavní stránku

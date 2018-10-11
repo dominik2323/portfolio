@@ -25,9 +25,10 @@ import firebase from '../../database/firebase'
 // }
 
 export const dataLoader = () => dispatch => {
+	const build = R.prop(process.env.REACT_APP_BUILD)
 	const ref = firebase.database().ref()
 	ref.on('value', x => {
-		let dataTree = x.val()
+		let dataTree = build(x.val())
 		let secretOnesCondition = dataTree.secretOnes ? R.either(R.equals(false), R.equals(true)) : R.equals(false)
 		const conditions = R.where({
 			'active': R.equals(true),
